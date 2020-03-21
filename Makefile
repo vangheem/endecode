@@ -5,7 +5,7 @@ SHELL := /bin/bash
 .PHONY: build
 build: ## This help message
 	yarn build --dest=docs
-	## poor man's simple routing...
+	## poor man's routing...
 	mkdir -p docs/b64 docs/url docs/json
 	cp docs/index.html docs/b64/index.html
 	cp docs/index.html docs/url/index.html
