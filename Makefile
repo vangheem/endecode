@@ -10,3 +10,4 @@ build: ## This help message
 	cp docs/index.html docs/b64/index.html
 	cp docs/index.html docs/url/index.html
 	cp docs/index.html docs/json/index.html
+	cp -rf src/assets/assets docs/assets
