@@ -10,3 +10,5 @@ build: ## This help message
 	cp docs/index.html docs/b64/index.html
 	cp docs/index.html docs/url/index.html
 	cp docs/index.html docs/json/index.html
+	echo "endecode.org" > docs/CNAME
+	git add docs/*
