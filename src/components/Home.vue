@@ -10,7 +10,10 @@
         The top results for this have been getting worse: full of ads, tracking cookies and clunky user interfaces.
         <strong>
           The world needs
-          <a href="https://github.com/vangheem/endecode" target="_blank">open source</a> alternative.
+          <a
+            href="https://github.com/vangheem/endecode"
+            target="_blank"
+          >an open source</a> alternative.
         </strong>
       </div>
     </article>
