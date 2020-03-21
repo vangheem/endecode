@@ -31,13 +31,6 @@ export default {
     var self = this;
     window.addEventListener("locationchange", () => {
       self.currentRoute = window.location.pathname;
-      // remove trailing slash
-      if (self.currentRoute.substring(self.currentRoute.length - 1) === "/") {
-        self.currentRoute = self.currentRoute.substring(
-          0,
-          self.currentRoute.length - 1
-        );
-      }
       self.$forceUpdate();
     });
   },
@@ -48,7 +41,12 @@ export default {
   },
   computed: {
     ViewComponent() {
-      return routes[this.currentRoute || "/"] || NotFound;
+      // remove trailing slash
+      var route = this.currentRoute;
+      if (route.substring(route.length - 1) === "/") {
+        route = route.substring(0, route.length - 1);
+      }
+      return routes[route || "/"] || NotFound;
     }
   },
   render(h) {
