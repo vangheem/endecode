@@ -6,8 +6,8 @@
     </div>
     <article class="message">
       <div class="message-body">
-        I often find myself googling a site that will encode base64 for me or url decode a value.
-        The top results on sites for this have been getting worse with ads, tracking cookies and clunky user interfaces.
+        I often find myself googling a site that will encode base64 or url decode a value.
+        The top results for this have been getting worse: full of ads, tracking cookies and clunky user interfaces.
         <strong>
           The world needs
           <a href="https://github.com/vangheem/endecode" target="_blank">open source</a> alternative.
