@@ -9,7 +9,7 @@ const routes = {
   "/": Home,
   "/b64": B64,
   "/json": Json,
-  "/url": Url,
+  "/url": Url
 };
 
 var realPushState = history.pushState;
@@ -31,6 +31,13 @@ export default {
     var self = this;
     window.addEventListener("locationchange", () => {
       self.currentRoute = window.location.pathname;
+      // remove trailing slash
+      if (self.currentRoute.substring(self.currentRoute.length - 1) === "/") {
+        self.currentRoute = self.currentRoute.substring(
+          0,
+          self.currentRoute.length - 1
+        );
+      }
       self.$forceUpdate();
     });
   },
