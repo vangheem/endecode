@@ -6,7 +6,7 @@ export default {
   mixins: [Base],
   data: () => {
     return {
-      info: "URL encoder/decoder.",
+      title: "URL encoder/decoder.",
       encodeBtnName: "Encode",
       decodeBtnName: "Decode",
       encodePlaceholderTxt: "Text to encode",

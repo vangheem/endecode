@@ -3,7 +3,7 @@
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <a class="navbar-item" href="/" v-on:click="route">Home</a>
+          <a class="navbar-item" href="/" v-on:click="route">(en|de)code</a>
         </div>
         <div class="navbar-end">
           <div class="navbar-item">

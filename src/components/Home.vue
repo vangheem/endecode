@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div class="hello">
-      <h1 class="title">Fdecode</h1>
-      <h2 class="subtitle">Encoder, Decoder, Formatter</h2>
+      <h1 class="title">(en|de)code</h1>
+      <h2 class="subtitle">Encoder, Decoder and Formatter</h2>
     </div>
     <article class="message">
       <div class="message-body">
@@ -10,7 +10,7 @@
         The top results on sites for this have been getting worse with ads, tracking cookies and clunky user interfaces.
         <strong>
           The world needs
-          <a href>open source</a> alternative.
+          <a href="https://github.com/vangheem/endecode" target="_blank">open source</a> alternative.
         </strong>
       </div>
     </article>
@@ -18,7 +18,9 @@
       <h3>Goals</h3>
       <ul>
         <li>Simple</li>
-        <li>Open source</li>
+        <li>
+          <a href="https://github.com/vangheem/endecode" target="_blankn">Open source</a>
+        </li>
         <li>No ads</li>
         <li>No tracking</li>
       </ul>

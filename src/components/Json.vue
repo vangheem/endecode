@@ -6,7 +6,7 @@ export default {
   mixins: [Base],
   data: () => {
     return {
-      info: "JSON validator, formatter and minifier.",
+      title: "JSON validator, formatter and minifier.",
       encodeBtnName: "Format",
       decodeBtnName: "Minify",
       encodePlaceholderTxt: "JSON to format",

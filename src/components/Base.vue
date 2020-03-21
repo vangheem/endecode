@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <div class="notification" v-bind:class="{ 'is-danger': !!error }">
+    <h1 v-if="title" class="title is-3">{{title}}</h1>
+    <div class="notification" v-bind:class="{ 'is-danger': !!error }" v-if="error || info">
       <p v-if="error">{{error}}</p>
       {{info}}
     </div>
@@ -40,6 +41,7 @@ export default {
   name: "Base",
   data: () => {
     return {
+      title: "",
       info: "",
       encodeBtnName: "",
       decodeBtnName: "",

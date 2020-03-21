@@ -8,7 +8,8 @@ export default {
   mixins: [Base],
   data: () => {
     return {
-      info: "Base64 encoder/decoder",
+      title: "Base64 encoder/decoder",
+      info: "",
       encodeBtnName: "Encode",
       decodeBtnName: "Decode",
       encodePlaceholderTxt: "Raw text to encode",
