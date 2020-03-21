@@ -1,7 +1,7 @@
 # (en|de)code
 
-I often find myself googling a site that will encode base64 for me or url decode a value.
-The top results on sites for this have been getting worse with ads, tracking cookies and clunky user interfaces.
+I often find myself googling a site that will encode base64 or url decode a value.
+The top results for this have been getting worse: full of ads, tracking cookies and clunky user interfaces.
 
 [endecode.org](https://endecode.org) is an open source tool for encoding and decoding text online.
 
