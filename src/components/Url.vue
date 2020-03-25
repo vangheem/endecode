@@ -16,12 +16,12 @@ export default {
   methods: {
     encode: async function(event) {
       event.preventDefault();
-      this.value = encodeURI(this.raw);
+      this.value = encodeURIComponent(this.raw);
       await this.$nextTick();
     },
     decode: async function(event) {
       event.preventDefault();
-      this.raw = decodeURI(this.value);
+      this.raw = decodeURIComponent(this.value);
       await this.$nextTick();
     }
   }
