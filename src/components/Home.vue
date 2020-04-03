@@ -38,6 +38,15 @@
         <li>
           <a href="/json" v-on:click="route">JSON</a>
         </li>
+        <li>
+          <a href="/yaml" v-on:click="route">YAML</a>
+        </li>
+        <li>
+          <a href="/html" v-on:click="route">HTML</a>
+        </li>
+        <li>
+          <a href="/jwt" v-on:click="route">JWT</a>
+        </li>
       </ul>
     </div>
   </div>
