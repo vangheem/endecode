@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="column is-one-fifth">
-        <button class="button is-primary is-outlined" v-on:click="encode">
+        <button class="button is-primary is-outlined" v-on:click="encode" v-if="encodeBtnName">
           <span>{{encodeBtnName}}</span>
           <span class="icon is-large">
             <i class="fas fa-angle-double-right"></i>
@@ -22,7 +22,7 @@
         </button>
         <br />
         <br />
-        <button class="button is-primary is-outlined" v-on:click="decode">
+        <button class="button is-primary is-outlined" v-on:click="decode" v-if="decodeBtnName">
           <span class="icon is-large">
             <i class="fas fa-angle-double-left"></i>
           </span>

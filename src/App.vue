@@ -27,6 +27,7 @@
           <a class="navbar-item" href="/json" v-on:click="route">JSON</a>
           <a class="navbar-item" href="/yaml" v-on:click="route">YAML</a>
           <a class="navbar-item" href="/html" v-on:click="route">HTML</a>
+          <a class="navbar-item" href="/jwt" v-on:click="route">JWT</a>
         </div>
 
         <div class="navbar-end">

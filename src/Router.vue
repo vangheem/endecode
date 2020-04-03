@@ -5,6 +5,7 @@ import Json from "./components/Json.vue";
 import Url from "./components/Url.vue";
 import Yaml from "./components/Yaml.vue";
 import Html from "./components/Html.vue";
+import JWT from "./components/JWT.vue";
 import NotFound from "./components/NotFound.vue";
 
 const routes = {
@@ -13,7 +14,8 @@ const routes = {
   "/json": Json,
   "/url": Url,
   "/yaml": Yaml,
-  "/html": Html
+  "/html": Html,
+  "/jwt": JWT
 };
 
 var realPushState = history.pushState;

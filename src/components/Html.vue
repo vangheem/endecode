@@ -7,11 +7,11 @@ export default {
   mixins: [Base],
   data: () => {
     return {
-      title: "YAML <=> JSON",
+      title: "Html beatifier",
       encodeBtnName: "Beatify",
-      decodeBtnName: "",
+      decodeBtnName: null,
       encodePlaceholderTxt: "HTML to beatify",
-      decodePlaceholderTxt: ""
+      decodePlaceholderTxt: null
     };
   },
   methods: {
