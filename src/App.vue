@@ -25,6 +25,8 @@
           <a class="navbar-item" href="/b64" v-on:click="route">Base64</a>
           <a class="navbar-item" href="/url" v-on:click="route">URL</a>
           <a class="navbar-item" href="/json" v-on:click="route">JSON</a>
+          <a class="navbar-item" href="/yaml" v-on:click="route">YAML</a>
+          <a class="navbar-item" href="/html" v-on:click="route">HTML</a>
         </div>
 
         <div class="navbar-end">

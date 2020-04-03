@@ -3,13 +3,17 @@ import Home from "./components/Home.vue";
 import B64 from "./components/B64.vue";
 import Json from "./components/Json.vue";
 import Url from "./components/Url.vue";
+import Yaml from "./components/Yaml.vue";
+import Html from "./components/Html.vue";
 import NotFound from "./components/NotFound.vue";
 
 const routes = {
   "/": Home,
   "/b64": B64,
   "/json": Json,
-  "/url": Url
+  "/url": Url,
+  "/yaml": Yaml,
+  "/html": Html
 };
 
 var realPushState = history.pushState;

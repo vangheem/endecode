@@ -8,10 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.4",
-    "vue": "^2.6.11",
     "acorn": "^7.1.1",
-    "minimist": "^1.2.2"
+    "core-js": "^3.6.4",
+    "minimist": "^1.2.2",
+    "pretty": "^2.0.0",
+    "vue": "^2.6.11",
+    "yaml": "^1.8.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
