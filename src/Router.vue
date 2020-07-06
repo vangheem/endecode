@@ -6,6 +6,7 @@ import Url from "./components/Url.vue";
 import Yaml from "./components/Yaml.vue";
 import Html from "./components/Html.vue";
 import JWT from "./components/JWT.vue";
+import Timestamp from "./components/Timestamp.vue";
 import NotFound from "./components/NotFound.vue";
 
 const routes = {
@@ -15,7 +16,8 @@ const routes = {
   "/url": Url,
   "/yaml": Yaml,
   "/html": Html,
-  "/jwt": JWT
+  "/jwt": JWT,
+  "/timestamp": Timestamp
 };
 
 var realPushState = history.pushState;
@@ -31,6 +33,10 @@ export default {
     B64,
     Json,
     Url,
+    Yaml,
+    Html,
+    JWT,
+    Timestamp,
     NotFound
   },
   created: function() {
