@@ -7,15 +7,15 @@ export default {
   mixins: [Base],
   data: () => {
     return {
-      title: "Html beatifier",
-      encodeBtnName: "Beatify",
+      title: "Html beautifier",
+      encodeBtnName: "Beautify",
       decodeBtnName: null,
-      encodePlaceholderTxt: "HTML to beatify",
-      decodePlaceholderTxt: null
+      encodePlaceholderTxt: "HTML to beautify",
+      decodePlaceholderTxt: null,
     };
   },
   methods: {
-    encode: async function(event) {
+    encode: async function (event) {
       event.preventDefault();
       try {
         this.value = pretty(this.raw);
@@ -25,7 +25,7 @@ export default {
       }
       await this.$nextTick();
     },
-    decode: async function(event) {
+    decode: async function (event) {
       event.preventDefault();
       try {
         this.raw = this.value;
@@ -34,8 +34,8 @@ export default {
         this.error = e;
       }
       await this.$nextTick();
-    }
-  }
+    },
+  },
 };
 </script>
 
