@@ -10,7 +10,7 @@
   "dependencies": {
     "acorn": "^7.1.1",
     "core-js": "^3.6.4",
-    "minimist": "^1.2.2",
+    "minimist": "^1.2.6",
     "pretty": "^2.0.0",
     "vue": "^2.6.11",
     "yaml": "^1.8.3",
